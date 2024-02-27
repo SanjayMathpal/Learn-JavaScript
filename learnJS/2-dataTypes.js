@@ -1,4 +1,4 @@
-// Primitive data types
+// Primitive data types  ->  call by value
 
 // number -> integer
 // bigInt -> big integer
@@ -6,12 +6,16 @@
 // boolean -> true/false
 // null -> standalone value
 // undefined
-// symbol
+// symbol 
+
+let id = Symbol("123")
+let anotherId = Symbol("123")
+console.log(id === anotherId)
 
 console.log(typeof(null)) // object
 console.log(typeof(undefined)) // undefined
 
-// Non-primitive data types
+// Non-primitive data types   ->   call by reference
 
 // 1. objects
 

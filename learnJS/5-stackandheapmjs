@@ -1,0 +1,19 @@
+// stack (primitive)     ||     heap (non-primitive)
+
+let name = "something"
+let anotherName = name
+anotherName = "else"
+
+console.log(name)
+console.log(anotherName)
+
+let user = {
+    email: "sanjaymathpal@gmail.com",
+    name: "sanjay"
+}
+
+let user2 = user
+user2.email = "sanjay@gmail.com"
+
+console.log(user.email)
+console.log(user2.email)
