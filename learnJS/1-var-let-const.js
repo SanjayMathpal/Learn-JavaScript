@@ -12,3 +12,5 @@ console.log(age)
 // id = 20011360 error due to contant keyword
 
 console.log(id);
+
+// -------------------try to avoid using var instead use let-----------
