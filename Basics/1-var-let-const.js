@@ -9,7 +9,7 @@ console.log(name);
 
 console.log(age)
 
-// id = 20011360 error due to contant keyword
+// id = 20011360 error due to constant keyword
 
 console.log(id);
 
