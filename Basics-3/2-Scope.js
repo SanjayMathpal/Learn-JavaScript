@@ -2,7 +2,7 @@
 
 var a = 100; // scope is globle
 let b = 200; // scope is local
-const c = 300; // scope is global but a constant value
+const c = 300; // constant value
 
 if(true){
     a = 400;
